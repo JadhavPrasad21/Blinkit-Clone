@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.my-nav{
+    border-bottom: 1px solid #eeeeee;
+}
+.logo{
+    border-right: 1px solid #eeeeee;
+}
+.location>h6{
+    margin: 0px;
+    font-weight: 900;
+}
+.location>p{
+    margin: 0px;
+}
+.search-bar{
+    background-color: #F8F8F8;
+    border-radius: 8px;
+    border: 1px solid #eeeeee;
+    width: 40vw;
+    padding: 10px;
+}
+.search-bar>input{
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    outline: none;
+    gap: 8px;
+}
+
+/* <!-- <------------cart animation start----------- --> */
+
+.fa-cart-shopping:hover {
+    animation: shake 2s linear 0s 1 alternate forwards;
+}
+@keyframes shake {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+/* <!-- <------------cart animation end----------- --> */
+
+.hero-section-1{
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+/* <!-- <------------sliding container start----------- --> */
+.mine-container{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    overflow-x: auto;
+    margin-inline: auto;
+}
+.list{
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+}
+.list>div{
+    display: inline-block;
+    margin: 10px;
+}
+/* <!-- <------------sliding container end----------- --> */
